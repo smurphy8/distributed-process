@@ -126,6 +126,8 @@ import GHC.Generics
 -- Node and process identifiers                                               --
 --------------------------------------------------------------------------------
 
+
+
 -- | Node identifier
 newtype NodeId = NodeId { nodeAddress :: NT.EndPointAddress }
   deriving (Eq, Ord, Typeable, Generic)
